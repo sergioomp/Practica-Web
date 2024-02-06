@@ -1,0 +1,123 @@
+body  {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: paleturquoise;
+}
+
+
+.navegacion {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 992px;
+    
+    
+    
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+        
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 100px;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+.nav-menu-link:hover{
+    background-color: darkturquoise;
+    animation-delay: 1s;
+
+
+}
+
+
+section{
+    position: fixed;
+    overflow-y: scroll;
+    background-color: azure;
+    top:98px;
+    left: 0;
+    bottom: 20px;
+    width: 99.9999999999999%;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    background-color: deepskyblue;
+    color:white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+p{
+    font-family: sans-serif;
+    
+}
+h2{
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: orange;
+    color: purple;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+h4{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+h5{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+ul{
+    font: sans-serif;
+}
+
+li{
+    font: sans-serif;
+}
+nav a{
+    background-color: #024070;
+    color: white;
+    text-decoration: white;
+}
+nav a:hover{
+    background-color: darkturquoise;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: lightseagreen;
+    color: white
+}
+tr:nth-child(even){
+    background-color: lightsteelblue;
+    color: white
+}
